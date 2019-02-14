@@ -1,16 +1,5 @@
-// import axios from 'axios'
-// const config = require('../server/config.js')
-// const baseUrl = config.apiPath
-// const baseUrl = 'http://172.30.11.49:39080/v1/api/wap'
-const baseUrl = '/v1/api/wap'
-// const baseUrl = 'http://172.30.30.99:9080/v1/api/wap'
-// const baseUrl = 'https://apid.thedbit.com/v1/api/wap'
-
-
+const baseUrl = '/v1/api'
 export default {
-  /*
-  * 获取新聞欄目
-  * */
   async FETCH_CHANNEL({state}, params) {
     const { data } = await this.$axios({
       method: 'post',
@@ -19,9 +8,6 @@ export default {
     })
     return data
   },
-  /*
-  * 新聞列表
-  * */
   async FETCH_NEWS_LISTS({state}, params) {
     const { data } = await this.$axios({
       method: 'post',
@@ -30,9 +16,6 @@ export default {
     })
     return data
   },
-  /*
-  * 輪播圖
-  * */
   async FETCH_SLIDE_LISTS({state}, params) {
     const { data } = await this.$axios({
       method: 'post',
@@ -41,9 +24,6 @@ export default {
     })
     return data
   },
-  /*
-  * 轮播图埋点数
-  * */
   async FETCH_SEDN_SLIDING({state}, params) {
     const { data } = await this.$axios({
       method: 'post',
@@ -52,9 +32,6 @@ export default {
     })
     return data
   },
-  /*
-  * 新闻详情页
-  * */
   async FETCH_NEWS_DETAILS({state}, params) {
     const { data } = await this.$axios({
       method: 'post',
@@ -63,9 +40,6 @@ export default {
     })
     return data
   },
-  /*
-  * 获取相关新闻
-  * */
   async FETCH_NEWS_RELATED({state}, params) {
     const { data } = await this.$axios({
       method: 'post',
@@ -74,9 +48,6 @@ export default {
     })
     return data
   },
-  /*
- * 获取推荐新闻
- * */
   async FETCH_NEWS_RECOMMEND({state}, params) {
     const { data } = await this.$axios({
       method: 'post',
@@ -85,9 +56,6 @@ export default {
     })
     return data
   },
-    /*
-  * 获取往期新闻
-  * */
   async FETCH_NEWS_SERIAL({state}, params) {
     const { data } = await this.$axios({
       method: 'post',
@@ -96,10 +64,6 @@ export default {
     })
     return data
   },
-
-  /*
- * 获取新闻浏览数
- * */
   async FETCH_NEWS_BROWSE_NUM({state}, params) {
     const { data } = await this.$axios({
       method: 'post',
@@ -108,9 +72,6 @@ export default {
     })
     return data
   },
-  /*
-  * 新聞tag列表
-  * */
   async FETCH_NEWS_TAGS({state}, params) {
     const { data } = await this.$axios({
       method: 'post',
@@ -119,9 +80,6 @@ export default {
     })
     return data
   },
-  /*
-  * 快訊列表
-  * */
   async FETCH_BRIEF_LIST({state}, params) {
     const { data } = await this.$axios({
       method: 'post',
@@ -130,9 +88,6 @@ export default {
     })
     return data
   },
-  /*
-  * 推特列表
-  * */
   async FETCH_TWITTER_LIST({state}, params) {
     const { data } = await this.$axios({
       method: 'post',
@@ -141,9 +96,6 @@ export default {
     })
     return data
   },
-  /*
-  * 網址導航
-  * */
   async FETCH_GUIDE_NAV({state}, params) {
     const { data } = await this.$axios({
       method: 'get',
@@ -151,9 +103,6 @@ export default {
     });
     return data
   },
-  /*
-  * wiki詳情頁面
-  * */
   async FETCH_WIKI_DETAILS({state}, params) {
     const { data } = await this.$axios({
       method: 'post',
@@ -162,9 +111,6 @@ export default {
     });
     return data
   },
-  /*
-  * wiki-tag列表
-  * */
   async FETCH_WIKI_TAGS({state}, params) {
     const { data } = await this.$axios({
       method: 'post',
@@ -173,9 +119,6 @@ export default {
     })
     return data
   },
-  /*
-  * 獲取幣列表
-  * */
   async FETCH_MARKET_CURRENCY({state}, params) {
     const { data } = await this.$axios({
       method: 'post',
@@ -184,6 +127,4 @@ export default {
     })
     return data
   }
-
-
 }

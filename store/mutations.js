@@ -36,8 +36,5 @@ export default {
       default:
         state.languageId = 152
     }
-  },
-  SET_DETAILS_STATE(state, isShow) {
-    state.detailsIsShow = isShow
   }
 }
