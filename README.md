@@ -1,6 +1,6 @@
-# wap-new
+# nuxt
 
-> My brilliant Nuxt.js project
+> 服务器端渲染库
 
 ## Build Setup
 
@@ -8,8 +8,8 @@
 # install dependencies
 $ yarn install
 
-# serve with hot reload at localhost:3000
-$ yarn run dev
+# serve with hot reload at localhost:8080
+$ yarn run nuxt
 
 # build for production and launch server
 $ yarn run build
