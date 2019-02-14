@@ -96,14 +96,8 @@ module.exports = {
    */
   axios: {
     credentials: false,
-    baseURL: 'https://apid.thedbit.com',
-    browserBaseURL: 'https://apid.thedbit.com',
-    // baseURL: 'http://172.30.30.99:9080',
-    // browserBaseURL: 'http://172.30.30.99:9080',
-    // baseURL: 'http://172.30.11.49:39080',
-    // browserBaseURL: 'http://172.30.11.49:39080',
-    // baseURL: 'http://172.30.30.186:9080',
-    // browserBaseURL: 'http://172.30.30.186:9080',
+    baseURL: 'https://api.com',
+    browserBaseURL: 'https://api.com',
     retry: {retries: 3}
     // proxyHeaders: false,
     // prefix: '/json/',
