@@ -1,0 +1,45 @@
+{
+  "common":{
+    "noMore":"더 이상 없습니다",
+    "LearnBlockChain":"블록체인 배우자",
+    "DOWNLOAD":"다운로드",
+    "News":"뉴스",
+    "Brief":"속보",
+    "MarketPrice":"시장 가격",
+    "WebGuide":"네비게이터",
+    "Good":"좋아요 ",
+    "Bad":"안 좋아요",
+    "Twitter":"트위터",
+    "more":"기타",
+    "collapse":"접기",
+    "GETApplicationForBetterBxprience":"어플리케이션 다운로드를 받으시고 더 좋은 것을 체험하십시오",
+    "CLICKHERE":"클릭하십시오",
+    "JoinUsOn":"SNS에서 팔우로해 주십시오"
+  },
+  "market":{
+    "High":"최고",
+    "Low":"최저",
+    "Changes":"상승폭",
+    "Volume":"거래량",
+    "Exchanges":"거래소",
+    "Latest":"최신 가격",
+    "cap":"시가총액",
+    "h":"시간"
+  },
+  "details":{
+    "ThePastReview":"되돌아보기",
+    "RelatedNews":"관련뉴스",
+    "Recommend":"추천",
+    "editor":"편집자:",
+    "author":"작성자:"
+  },
+  "Intermediate":{
+    "DbitMedia":"블록체인 전문 미디어 디비트",
+    "blockchainMedia":"글로벌 블록체인 전문 미디어",
+    "DbitContent":"디비트는 구독자들이 보고 싶은 다양한 콘텐츠를 비롯해 실시간 속보 알림 기능, 수십 종의 암호화폐 시세, 블록체인 지식백과 등을 제공합니다.",
+    "Download":"다운로드",
+    "DownloadNow":"다운로드 받으시면 블록체인 뉴스와 암호화폐 시세를 실시간으로 확인할 수 있습니다. 지금 바로 디비트를 체험해보세요."
+  }
+
+
+}

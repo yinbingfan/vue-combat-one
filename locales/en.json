@@ -1,0 +1,28 @@
+{
+
+  "corner":{
+    "ScanQRCodeToDownload":"Scan QR code to download",
+    "downloadDbitApp":"Scan QR code to download Dbit App"
+  },
+  "common":{
+    "LOADMORENEWS":"LOAD MORE NEWS",
+    "TagTitle":"Tag: ",
+    "Contactus":"Contact us",
+    "More":"More",
+    "noMore":"no More",
+    "FeedbackDbitWebsite":"Feedback-Dbit-website",
+    "Feedback":"Feedback",
+    "All":"All",
+    "Top":"Top",
+    "loading":"loading…"
+  },
+  "Intermediate":{
+    "DbitMedia":"Dbit blockchain media",
+    "blockchainMedia":"The world's leading blockchain media",
+    "DbitContent":"Dbit provides you with high-quality news content, real-time block chain express, real-time prices of dozens of virtual currencies around the world, and hundreds of vivid and easy-to-understand block chain introductory knowledge",
+    "Download":"Download now!",
+    "DownloadNow":"Download now!Immediate access to in-depth industry insight, global real-time information and data, to help you better understand the block chain."
+  }
+
+
+}

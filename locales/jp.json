@@ -1,0 +1,43 @@
+{
+  "common":{
+    "noMore":"以上",
+    "LearnBlockChain":"ブロックチェーンを理解する",
+    "DOWNLOAD":"ダウンロード",
+    "News":"ニュース",
+    "Brief":"まとめ",
+    "MarketPrice":"価格＆相場",
+    "WebGuide":"サイト案内",
+    "Good":"良い ",
+    "Bad":"悪い",
+    "Twitter":"ツイッター",
+    "more":"もっと",
+    "collapse":"折りたたむ",
+    "GETApplicationForBetterBxprience":" アプリケーションゲット、よりいい体験",
+    "CLICKHERE":"クリック",
+    "JoinUsOn":"公式ページにフォロー大歓迎"
+  },
+  "market":{
+    "High":"最高格",
+    "Low":"最低格",
+    "Changes":"上昇幅",
+    "Volume":"取引量",
+    "Exchanges":"取引所",
+    "Latest":"最新格",
+    "cap":"時価総額",
+    "h":"間"
+  },
+  "details":{
+    "ThePastReview":"レビュー",
+    "RelatedNews":"関連ニュース",
+    "Recommend":"お進め",
+    "editor":"エディタ:",
+    "author":"著者:"
+  },
+  "Intermediate":{
+    "DbitMedia":"Dbitブロックチェーンメデイア",
+    "blockchainMedia":"世界専門的なブロックチェンメデイア",
+    "DbitContent":"Dbitは良質なニュース、リアルタイム速報、全世界数十種類の仮想通貨リアルタイム価格、100本以上の分かりやすいブロックチェン入門知識を提供しています。",
+    "Download":"ダウンロード",
+    "DownloadNow":"業界の専門知識や世界のリアルタイム情報＆データを獲得し、ブロックチェーンを深く理解できます。"
+  }
+}
