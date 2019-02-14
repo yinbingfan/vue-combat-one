@@ -18,8 +18,6 @@
     mounted(){
       this.sessionLangCode()
     }
-
-
   }
 
 </script>

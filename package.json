@@ -13,7 +13,7 @@
     "dist:pro": "NODE_ENV=pro node server/build.js false -d",
     "build": "NODE_ENV=dev node server/build.js news=1917 -b -l",
     "generate": "nuxt generate",
-    "nuxt": "nuxt --port 3033"
+    "nuxt": "nuxt --port 8080"
   },
   "dependencies": {
     "@koa/cors": "^2.2.2",
